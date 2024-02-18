@@ -1,0 +1,52 @@
+<!--{{#each cart.products}}
+<h1>{{this.name}}</h1>
+{{/each}}-->
+
+<section class="product-cart product footer-padding">
+        <div class="container">
+            <div class="cart-section">
+                <table>
+                    <tbody>
+                        
+                        <tr class="table-row table-top-row">
+                            <td class="table-wrapper wrapper-product">
+                                <h5 class="table-heading">PRODUCT</h5>
+                            </td>
+                            <td class="table-wrapper">
+                                <div class="table-wrapper-center">
+                                    <h5 class="table-heading">PRICE</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        {{#each cart.products}}
+                        <tr class="table-row ticket-row">
+                            <td class="table-wrapper wrapper-product">
+                                <div class="wrapper">
+                                    
+                                    <div class="wrapper-img">
+                                        <img src="{{this.image}}"
+                                            alt="img">
+                                    </div>
+                                    
+                                    <div class="wrapper-content">
+                                        <h5 class="heading">{{this.name}}</h5>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="table-wrapper">
+                                <div class="table-wrapper-center">
+                                    <h5 class="heading">${{this.price}}</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+            <div class="wishlist-btn cart-btn">
+                <a href="/cart/clear" class="clean-btn">Clear Cart</a>
+                
+                <a href="/checkout" class="shop-btn">Proceed to Checkout</a>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,437 @@
+{
+    "items":[
+        {
+            "id":1,
+            "category":"eyes",
+            "name":"Eyeshadow",
+            "price":29.99,
+            "images":[
+                {"src":"/images/e1.webp"},
+                {"src":"/images/ee1.webp"},
+                {"src":"/images/ee2.webp"},
+                {"src":"/images/ee3.webp"}
+            ],
+            "description":"An eyeshadow palette of seven rich, buttery shades in a range of long-lasting finishes, each inspired by our iconic Soft Pinch Liquid Blush collection."
+        }, {
+            "id":2,
+            "category":"eyes",
+            "name":"Eye Patches",
+            "price":20.99,
+            "images":[
+                {"src":"/images/e2.webp"},
+                {"src":"/images/ee4.webp"},
+                {"src":"/images/ee5.jpeg"},
+                {"src":"/images/ee6.webp"}
+            ],
+            "description":"Cooling under eye patches that hydrate, smooth, and revive skin for a refreshed look in minutes. The perfect prep step before makeup!"
+        }, {
+            "id":3,
+            "category":"eyes",
+            "name":"Eye Primer",
+            "price":15.99,
+            "images":[
+                {"src":"/images/e3.webp"},
+                {"src":"/images/ee7.webp"},
+                {"src":"/images/ee8.webp"},
+                {"src":"/images/ee9.webp"}
+            ],
+            "description":"A weightless, hydrating eye primer that smooths lids while prepping you for longer-lasting, amped-up color that won’t crease, fade, or smudge all day."
+        }, {
+            "id":4,
+            "category":"eyes",
+            "name":"Eyeshadow",
+            "price":14.99,
+            "images":[
+                {"src":"/images/e4.webp"},
+                {"src":"/images/ee10.webp"},
+                {"src":"/images/ee11.webp"},
+                {"src":"/images/ee12.webp"}
+            ],
+            "description":"A quick-and-easy eyeshadow that goes from liquid to powder in seconds for a soft, seamless wash of color that lasts"
+        }, {
+            "id":5,
+            "category":"eyes",
+            "name":"Package",
+            "price":29.99,
+            "images":[
+                {"src":"/images/e5.webp"},
+                {"src":"/images/ee13.webp"},
+                {"src":"/images/ee14.webp"},
+                {"src":"/images/ee15.avif"}
+            ],
+            "description":"A quick-and-easy eyeshadow that goes from liquid to powder in seconds for a soft, seamless wash of color that lasts"
+        }, {
+            "id":6,
+            "category":"eyes",
+            "name":"Patches",
+            "price":14.99,
+            "images":[
+                {"src":"/images/e6.webp"},
+                {"src":"/images/ee16.webp"},
+                {"src":"/images/ee17.webp"},
+                {"src":"/images/ee18.jpeg"}
+            ],
+            "description":"Cooling under eye patches that hydrate, smooth, and revive skin for a refreshed look in minutes. The perfect prep step before makeup!"
+        }, {
+            "id":7,
+            "category":"eyes",
+            "name":"Brow Duo",
+            "price":14.99,
+            "images":[
+                {"src":"/images/e7.webp"},
+                {"src":"/images/eee19.webp"},
+                {"src":"/images/eee20.webp"},
+                {"src":"/images/eee21.webp"}
+            ],
+            "description":"A quick-and-easy brow duo that goes from liquid to powder in seconds for a soft, seamless wash of color that lasts."
+        }, {
+            "id":8,
+            "category":"eyes",
+            "name":"Eyeshadow",
+            "price":14.99,
+            "images":[
+                {"src":"/images/e8.webp"},
+                {"src":"/images/ee22.webp"},
+                {"src":"/images/ee23.webp"},
+                {"src":"/images/ee24.webp"}
+            ],
+            "description":"A quick-and-easy eyeshadow that goes from liquid to powder in seconds for a soft, seamless wash of color that lasts."
+        }, {
+            "id":9,
+            "category":"eyes",
+            "name":"Brow Pencil",
+            "price":14.99,
+            "images":[
+                {"src":"/images/e9.webp"},
+                {"src":"/images/ee25.webp"},
+                {"src":"/images/ee26.webp"},
+                {"src":"/images/ee27.webp"}
+            ],
+            "description":"A long-lasting, waterproof pencil with a fine angled tip to create precise, hair-like strokes for the most natural-looking brows."
+        }, {
+            "id":10,
+            "category":"eyes",
+            "name":"Mascara",
+            "price":14.99,
+            "images":[
+                {"src":"/images/e10.webp"},
+                {"src":"/images/ee28.webp"},
+                {"src":"/images/ee29.webp"},
+                {"src":"/images/ee30.webp"}
+            ],
+            "description":"A quick-and-easy mascara that goes liquid for a soft, seamless wash of color that lasts"
+        }, {
+            "id":11,
+            "category":"eyes",
+            "name":"Eyeshadow",
+            "price":22.99,
+            "images":[
+                {"src":"/images/e11.webp"},
+                {"src":"/images/ee31.webp"},
+                {"src":"/images/ee32.webp"},
+                {"src":"/images/ee33.webp"}
+            ],
+            "description":"A quick-and-easy eyeshadow that goes from liquid to powder in seconds for a soft, seamless wash of color that lasts"
+        }, {
+            "id":12,
+            "category":"eyes",
+            "name":"Eye Primer",
+            "price":12.99,
+            "images":[
+                {"src":"/images/e12.webp"},
+                {"src":"/images/ee34.jpeg"},
+                {"src":"/images/ee35.webp"},
+                {"src":"/images/ee36.webp"}
+            ],
+            "description":"A super lightweight liquid that instantly brightens, hydrates, and awakens undereyes with sheer to medium coverage for a fresh, radiant look in a flash."
+        }, {
+            "id":13,
+            "category":"lips",
+            "name":"Lip Liner",
+            "price":16.99,
+            "images":[
+                {"src":"/images/l1.webp"},
+                {"src":"/images/ll1.webp"},
+                {"src":"/images/ll2.webp"},
+                {"src":"/images/ll3.webp"}
+            ],
+            "description":"A super creamy, waterproof lip liner that glides on like a balm to define and shape lips with rich, stay-put color. Available in the same 10 made-to-match shades as Kind Words Matte Lipstick."
+        }, {
+            "id":14,
+            "category":"lips",
+            "name":"Lip Stick",
+            "price":16.99,
+            "images":[
+                {"src":"/images/l2.webp"},
+                {"src":"/images/ll4.webp"},
+                {"src":"/images/ll5.avif"},
+                {"src":"/images/ll6.webp"}
+            ],
+            "description":"A super creamy, waterproof lip stick that glides on like a balm to define and shape lips with rich, stay-put color. Available in the same 10 made-to-match shades as Kind Words Matte Lipstick."
+        }, {
+            "id":15,
+            "category":"lips",
+            "name":"Lip Gloss",
+            "price":18.99,
+            "images":[
+                {"src":"/images/l3.webp"},
+                {"src":"/images/ll7.avif"},
+                {"src":"/images/ll8.webp"},
+                {"src":"/images/ll9.webp"}
+            ],
+            "description":"A super creamy, waterproof lip gloss that glides on like a balm to define and shape lips with rich, stay-put color. Available in the same 10 made-to-match shades as Kind Words Matte Lipstick."
+        }, {
+            "id":16,
+            "category":"lips",
+            "name":"Lip Pack",
+            "price":29.99,
+            "images":[
+                {"src":"/images/l4.webp"},
+                {"src":"/images/ll10.webp"},
+                {"src":"/images/ll11.webp"},
+                {"src":"/images/ll12.webp"}
+            ],
+            "description":"Limited Edition: A full-size lip duo featuring Soft Pinch Tinted Lip Oil and Kind Words Matte Lip Liner in the perfect universal rose brown."
+        }, {
+            "id":17,
+            "category":"lips",
+            "name":"Lip Stain",
+            "price":9.99,
+            "images":[
+                {"src":"/images/l5.webp"},
+                {"src":"/images/ll13.webp"},
+                {"src":"/images/ll14.webp"},
+                {"src":"/images/ll15.webp"}
+            ],
+            "description":"A full-size lip stain featuring Soft Pinch Tinted Lip Oil."
+        }, {
+            "id":18,
+            "category":"lips",
+            "name":"Lip Oil",
+            "price":19.99,
+            "images":[
+                {"src":"/images/l6.webp"},
+                {"src":"/images/ll16.webp"},
+                {"src":"/images/ll17.webp"},
+                {"src":"/images/ll18.webp"}
+            ],
+            "description":"An innovative lip jelly that transforms into a lightweight oil, starting off glossy, then leaving lips tinted while staying comfortable—never sticky—all day."
+        }, {
+            "id":19,
+            "category":"lips",
+            "name":"Lip Stick",
+            "price":15.99,
+            "images":[
+                {"src":"/images/l7.webp"},
+                {"src":"/images/ll19.webp"},
+                {"src":"/images/ll20.webp"},
+                {"src":"/images/ll21.webp"}
+            ],
+            "description":"An innovative lip stick that transforms into a lightweight oil, starting off glossy, then leaving lips tinted while staying comfortable—never sticky—all day."
+        }, {
+            "id":20,
+            "category":"lips",
+            "name":"Lip Oil",
+            "price":39.99,
+            "images":[
+                {"src":"/images/l8.webp"},
+                {"src":"/images/ll22.webp"},
+                {"src":"/images/ll23.webp"},
+                {"src":"/images/ll24.webp"}
+            ],
+            "description":"An innovative lip oil that transforms into a lightweight oil, starting off glossy, then leaving lips tinted while staying comfortable—never sticky—all day."
+        }, {
+            "id":21,
+            "category":"lips",
+            "name":"Lip Oil",
+            "price":19.99,
+            "images":[
+                {"src":"/images/l9.webp"},
+                {"src":"/images/ll25.webp"},
+                {"src":"/images/ll26.webp"},
+                {"src":"/images/ll27.webp"}
+            ],
+            "description":"An innovative lip jelly that transforms into a lightweight oil, starting off glossy, then leaving lips tinted while staying comfortable—never sticky—all day."
+        }, {
+            "id":22,
+            "category":"lips",
+            "name":"Lip Oil",
+            "price":23.99,
+            "images":[
+                {"src":"/images/l10.webp"},
+                {"src":"/images/ll28.webp"},
+                {"src":"/images/ll29.webp"},
+                {"src":"/images/ll30.webp"}
+            ],
+            "description":"An innovative lip jelly that transforms into a lightweight oil, starting off glossy, then leaving lips tinted while staying comfortable—never sticky—all day."
+        }, {
+            "id":23,
+            "category":"lips",
+            "name":"Lip Gloss",
+            "price":19.99,
+            "images":[
+                {"src":"/images/l11.webp"},
+                {"src":"/images/ll17.webp"},
+                {"src":"/images/ll18.webp"},
+                {"src":"/images/ll19.webp"}
+            ],
+            "description":"An innovative lip gloss that transforms into a lightweight oil, starting off glossy, then leaving lips tinted while staying comfortable—never sticky—all day."
+        }, {
+            "id":24,
+            "category":"lips",
+            "name":"Lip Gloss",
+            "price":19.99,
+            "images":[
+                {"src":"/images/l12.jpg"},
+                {"src":"/images/ll3.webp"},
+                {"src":"/images/ll13.webp"},
+                {"src":"/images/ll14.webp"}
+            ],
+            "description":"An innovative lip gloss that transforms into a lightweight oil, starting off glossy, then leaving lips tinted while staying comfortable—never sticky—all day."
+        }, {
+            "id":25,
+            "category":"face",
+            "name":"Foundation",
+            "price":24.99,
+            "images":[
+                {"src":"/images/f1.webp"},
+                {"src":"/images/ff1.webp"},
+                {"src":"/images/ff2.webp"},
+                {"src":"/images/ff3.webp"}
+            ],
+            "description":"An innovative long-lasting foundation that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":26,
+            "category":"face",
+            "name":"Liquid Blush",
+            "price":20.99,
+            "images":[
+                {"src":"/images/f2.webp"},
+                {"src":"/images/ff4.webp"},
+                {"src":"/images/ff5.webp"},
+                {"src":"/images/ff6.webp"}
+            ],
+            "description":"An innovative long-lasting blush that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":27,
+            "category":"face",
+            "name":"Blush Set",
+            "price":34.99,
+            "images":[
+                {"src":"/images/f3.webp"},
+                {"src":"/images/ff7.webp"},
+                {"src":"/images/ff8.webp"},
+                {"src":"/images/ff9.webp"}
+            ],
+            "description":"An innovative long-lasting blush set that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":28,
+            "category":"face",
+            "name":"Face Set",
+            "price":44.99,
+            "images":[
+                {"src":"/images/f4.webp"},
+                {"src":"/images/ff10.webp"},
+                {"src":"/images/ff11.webp"},
+                {"src":"/images/ff12.webp"}
+            ],
+            "description":"An innovative long-lasting foundation and blush set that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":29,
+            "category":"face",
+            "name":"Concealor",
+            "price":21.99,
+            "images":[
+                {"src":"/images/f5.webp"},
+                {"src":"/images/ff13.webp"},
+                {"src":"/images/ff14.webp"},
+                {"src":"/images/ff15.webp"}
+            ],
+            "description":"An innovative long-lasting concealor that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":30,
+            "category":"face",
+            "name":"Face Mist",
+            "price":14.99,
+            "images":[
+                {"src":"/images/f6.webp"},
+                {"src":"/images/ff16.webp"},
+                {"src":"/images/ff17.webp"},
+                {"src":"/images/ff18.webp"}
+            ],
+            "description":"An innovative long-lasting face mist that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":31,
+            "category":"face",
+            "name":"Contour Stick",
+            "price":22.99,
+            "images":[
+                {"src":"/images/f7.webp"},
+                {"src":"/images/ff19.webp"},
+                {"src":"/images/ff20.webp"},
+                {"src":"/images/ff21.webp"}
+            ],
+            "description":"An innovative long-lasting contour that combines the weightless feel of a foundation with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":32,
+            "category":"face",
+            "name":"Blush",
+            "price":21.99,
+            "images":[
+                {"src":"/images/f8.webp"},
+                {"src":"/images/ff22.webp"},
+                {"src":"/images/ff23.webp"},
+                {"src":"/images/ff24.webp"}
+            ],
+            "description":"A colorful long-lasting blush that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":33,
+            "category":"face",
+            "name":"Putty Blush",
+            "price":19.99,
+            "images":[
+                {"src":"/images/f9.webp"},
+                {"src":"/images/ff25.webp"},
+                {"src":"/images/ff26.webp"},
+                {"src":"/images/ff27.webp"}
+            ],
+            "description":"An innovative long-lasting blush that combines the weightless feel of a putty with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":34,
+            "category":"face",
+            "name":"Highlighter",
+            "price":24.99,
+            "images":[
+                {"src":"/images/f10.webp"},
+                {"src":"/images/ff28.webp"},
+                {"src":"/images/ff29.webp"},
+                {"src":"/images/ff30.webp"}
+            ],
+            "description":"An innovative long-lasting highlighter that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":35,
+            "category":"face",
+            "name":"Setting Spray",
+            "price":20.99,
+            "images":[
+                {"src":"/images/f11.webp"},
+                {"src":"/images/ff31.webp"},
+                {"src":"/images/ff32.avif"},
+                {"src":"/images/ff33.webp"}
+            ],
+            "description":"An innovative long-lasting spray that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }, {
+            "id":36,
+            "category":"face",
+            "name":"Setting Powder",
+            "price":14.99,
+            "images":[
+                {"src":"/images/f12.webp"},
+                {"src":"/images/ff34.webp"},
+                {"src":"/images/ff35.webp"},
+                {"src":"/images/ff36.webp"}
+            ],
+            "description":"An innovative long-lasting powder that combines the weightless feel of a serum with buildable medium coverage for truly breathable, layerable wear."
+        }
+    ]
+}

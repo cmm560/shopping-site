@@ -1,0 +1,103 @@
+<!--{{#each category}}
+<h1>{{this.name}}</h1>
+<img src="{{this.image}}">
+{{/each}}
+{{#each products}}
+<ul>
+    <li><strong>Name: </strong> {{this.name}} </li>
+    <li><strong>Description: </strong> {{this.description}}</li>
+    <li><strong>Price: </strong> 
+   $ {{this.price}}
+    <br> {{#each images}} {{#if @first}} Main Image <img src="{{this.src}}"><br> {{/if}} {{/each}}
+
+    {{#each this.images}} 
+    {{this.src}}<br>
+    {{/each}}
+     </li>
+</ul>
+{{/each}} -->
+
+<!-- {{#each products.items}}
+        <div class="item col-lg-3 col-sm-6">
+            <img src="{{this.images.0.src}}">
+            <h2>{{this.name}}</h2> 
+            <div class="">
+                {{/each}} -->
+
+<section class="product arrival">
+        <div class="container">
+            <div class="section-title">
+                {{#each category}}
+                <div class="container"> 
+    <div class="row">
+<div class="col">
+                        <div class="product-wrapper d-flex align-items-center" data-aos="fade-right" style="background:url(/{{this.image}}) no-repeat center; background-size: cover">
+                            <div class="wrapper-info">
+                                 <h1 style="margin-left: 4rem">{{this.name}}</h1>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+</div>
+       
+{{/each}}
+            </div>
+            <div class="arrival-section">
+                <div class="row g-5">
+                    {{#each products}}
+                    <div class="item col-lg-3 col-sm-6">
+                        <div class="product-wrapper" data-aos="fade-up">
+                            <div class="product-img">
+                                <img src="{{this.images.0.src}}" alt="product-img">
+                                <div class="product-cart-items">
+                                    <a href="/product/{{this.id}}" class="cart cart-item">
+                                       <!--  this above?-->
+                                        
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="product-info" >
+                                <div class="ratings">
+                                    <span>
+                                        <svg width="75" height="15" viewBox="0 0 75 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z"
+                                                fill="#FFA800" />
+                                            <path
+                                                d="M22.5 0L24.1839 5.18237H29.6329L25.2245 8.38525L26.9084 13.5676L22.5 10.3647L18.0916 13.5676L19.7755 8.38525L15.3671 5.18237H20.8161L22.5 0Z"
+                                                fill="#FFA800" />
+                                            <path
+                                                d="M37.5 0L39.1839 5.18237H44.6329L40.2245 8.38525L41.9084 13.5676L37.5 10.3647L33.0916 13.5676L34.7755 8.38525L30.3671 5.18237H35.8161L37.5 0Z"
+                                                fill="#FFA800" />
+                                            <path
+                                                d="M52.5 0L54.1839 5.18237H59.6329L55.2245 8.38525L56.9084 13.5676L52.5 10.3647L48.0916 13.5676L49.7755 8.38525L45.3671 5.18237H50.8161L52.5 0Z"
+                                                fill="#FFA800" />
+                                            <path
+                                                d="M67.5 0L69.1839 5.18237H74.6329L70.2245 8.38525L71.9084 13.5676L67.5 10.3647L63.0916 13.5676L64.7755 8.38525L60.3671 5.18237H65.8161L67.5 0Z"
+                                                fill="#FFA800" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="product-description">
+                                    <a href="/product/{{this.id}}" class="product-details">{{this.name}}
+                                    </a>
+                                    <div class="price">
+                            
+                                        <span class="new-price">{{this.price}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    {{/each}}
+                </div>
+        </div>
+                         
+     </div>
+</section>
+
+              

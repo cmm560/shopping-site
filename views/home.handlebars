@@ -1,0 +1,111 @@
+<section id="hero" class="hero">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper hero-wrapper">
+                {{#each slides.slides}}
+                <div class="swiper-slide" style="background:url({{this.image}}) no-repeat; background-size:cover;">
+                    <div class="container">
+                        <div class="col-lg-6">
+                            <div class="wrapper-section" data-aos="fade-up">
+                                <div class="wrapper-info">
+                                    <h1 class="wrapper-details">Your Beauty is Your Magic</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+<section class="product fashion-style">
+        <div class="container">
+            <div class="style-section">
+                <div class="row gy-4 gx-5 gy-lg-0">
+
+                    {{#each data.categories}}
+
+                    <div class="col-lg-4">
+                        <div class="product-wrapper" data-aos="fade-right" style="background:url({{this.image}});">
+                            <div class="wrapper-info">
+                                <span class="wrapper-subtitle">NEW</span>
+                                <h4 class="wrapper-details">{{this.name}}
+                                </h4>
+                                <a href="/category/{{this.url}}" class="shop-btn">Shop Now
+                                    <span>
+                                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="1.45312" y="0.914062" width="9.25346" height="2.05632"
+                                                transform="rotate(45 1.45312 0.914062)" />
+                                            <rect x="8" y="7.45703" width="9.25346" height="2.05632"
+                                                transform="rotate(135 8 7.45703)" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{/each}}
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- {{this.name}} where the name of product is
+image tag - {{this.image.0.src}} -->
+
+<h2>Featured Products</h2>
+<div id="product-carousel" class="owl-carousel owl-theme row">      
+
+    
+        {{#each products.items}}
+        <div class="item col-lg-3x col-sm-6x">
+           <!-- <img src="{{this.images.0.src}}">
+            <h2>{{this.name}}</h2> -->
+                        <div class="product-wrapper" data-aos="fade-up">
+                            <div class="product-img">
+                                <img src="{{this.images.0.src}}" alt="product-img">
+                                <div class="product-cart-items">
+                                    <a href="#" class="cart cart-item">
+                                    
+                                    </a>
+                                    
+                                    <a href="compaire.html" class="compaire cart-item">
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                            
+                                <div class="product-description">
+                                    <a href="product/{{this.id}}" class="product-details">{{this.name}}
+                                    </a>
+                                    <div class="price">
+                                        
+                                        <span class="new-price">${{this.price}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+        {{/each}}
+
+</div>
+
+
+<script>
+    $(document).ready(function() {
+ 
+  $("#product-carousel").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      items: 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+  });
+});
+</script>
+
